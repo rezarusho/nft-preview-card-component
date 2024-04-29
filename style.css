@@ -30,16 +30,17 @@ body {
 }
 
 .card {
-  max-width: 350px;
+  max-width: 340px;
   padding: 24px;
   border-radius: 15px;
+  margin: 2rem 0;
   background-color: var(--dark-blue-card-bg);
 }
 
 .img-container {
   position: relative;
-  width: 278px;
-  height: 278px;
+  width: 285px;
+  height: 285px;
   border-radius: 8px;
   overflow: clip;
 }
@@ -79,6 +80,7 @@ body {
   color: var(--white);
   font-size: 22px;
   margin-block: 24px 16px;
+  font-weight: 500;
 }
 
 .title:hover {
@@ -89,11 +91,13 @@ body {
 .description {
   color: var(--soft-blue);
   line-height: 26px;
+  font-weight: 200;
 }
 
 .data {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-block: 24px 16px;
 }
 
@@ -154,9 +158,9 @@ body {
   color: var(--cyan);
 }
 
-@media (width > 375px) {
+@media (width> 375px) {
   .img-container {
-    width: 302px;
-    height: 302px;
+    width: 285px;
+    height: 285px;
   }
 }
